@@ -1,4 +1,4 @@
-# git-stargazers-kt
+# Git Stargazers
 Git Stargazers is a simple Github application to see the most starred repository. You can see most starred repository from various programming language. This application also using pagination, so you can scroll to see more starred repository infinitely. This application using MVVM architecture approach based on Google's recommendation. You can see the tech stack details below.
 
 ### Tech Stacks
@@ -69,3 +69,10 @@ Git Stargazers is a simple Github application to see the most starred repository
   - def paging_version = "3.1.1"
   - implementation "androidx.paging:paging-runtime:$paging_version"
   - implementation "androidx.paging:paging-common:$paging_version"
+
+### Run Project
+You can simply run the project by using Android Studio, than follow these steps.
+1. In the toolbar, select your app from the run configurations menu.
+2. In the target device menu, select the device that you want to run your app on.
+
+Also, you can run the project by clicking Menu Bar > Run > Run 'app'. See the (details)[https://developer.android.com/studio/run] how to run app on Android.
