@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Git Stargazers</string>
+    <string name="tvRepository">Repository</string>
+    <string name="tvByName">By Taufik Hidayat</string>
+    <string name="tvLanguage">Language</string>
+    <string name="tvStarred">Repository Starred</string>
+    <string name="tvLipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="tvOops">Oops! Something went wrong…</string>
+    <string name="tvRetry">Retry</string>
+</resources>
