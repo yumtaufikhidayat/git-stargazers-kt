@@ -1,6 +1,5 @@
 package com.taufik.gitstargazers.ui.viewmodel
 
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
