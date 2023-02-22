@@ -75,4 +75,4 @@ You can simply run the project by using Android Studio, than follow these steps.
 1. In the toolbar, select your app from the run configurations menu.
 2. In the target device menu, select the device that you want to run your app on.
 
-Also, you can run the project by clicking Menu Bar > Run > Run 'app'. See the (details)[https://developer.android.com/studio/run] how to run app on Android.
+Also, you can run the project by clicking Menu Bar > Run > Run 'app'. See the https://developer.android.com/studio/run for the details how to run Android app on Android Studio.
