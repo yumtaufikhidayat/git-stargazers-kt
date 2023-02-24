@@ -50,7 +50,8 @@ jobs:
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 33
-          target: default
+          target: google_apis
+          emulator-build: 7425822
           arch: x86
           profile: Nexus 6
           script: ./gradlew connectedCheck --stacktrace
