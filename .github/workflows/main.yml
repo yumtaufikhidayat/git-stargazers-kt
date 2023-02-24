@@ -11,11 +11,11 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v2
 
-      - name: Runt Lint
+      - name: Run Lint
         run: ./gradlew lintDebug
 
       - name: Upload test report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: lint.html
           path: app/build/reports/lint-results-debug.html
