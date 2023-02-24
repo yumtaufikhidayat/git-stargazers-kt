@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Lint
-        uses: ./gradlew lintDebug
+        run: ./gradlew lintDebug
 
       - name: Upload test report
         uses: actions/upload-artifact@v2
