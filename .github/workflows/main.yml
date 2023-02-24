@@ -7,6 +7,7 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    name: Lint Check
     steps:
       - name: Checkout the code
         uses: actions/checkout@v2
@@ -22,6 +23,7 @@ jobs:
 
   unit-test:
     needs: [ lint ]
+    name: Unit Test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
@@ -38,6 +40,7 @@ jobs:
 
   instrumentation-test:
     needs: [ unit-test ]
+    name: Instrumentation Test
     runs-on: macos-latest
     steps:
       - name: Checkout the code
@@ -46,8 +49,11 @@ jobs:
       - name: Run espresso tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: 30
-          script: ./gradlew connectedCheck
+          api-level: 33
+          target: default
+          arch: x86
+          profile: Nexus 6
+          script: ./gradlew connectedCheck --stacktrace
 
       - name: Upload test report
         uses: actions/upload-artifact@v2
