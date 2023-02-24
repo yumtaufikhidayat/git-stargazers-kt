@@ -5,6 +5,18 @@ on:
     - main
     
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Lint
+        uses: ./gradlew lintDebug
+
+      - name: Upload test report
+        uses: actions/upload-artifact@v2
+        with:
+          name: lint.html
+          path: app/build/reports/lint-results-debug.html
+
   unit-test:
     needs: [ lint ]
     runs-on: ubuntu-latest
