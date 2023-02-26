@@ -1,6 +1,11 @@
 # Git Stargazers
 Git Stargazers is a simple Github application to see the most starred repository. You can see most starred repository from various programming language. This application also using pagination, so you can scroll to see more starred repository infinitely. This application using MVVM architecture approach based on Google's recommendation. You can see the tech stack details below.
 
+### App Screenshot
+| <img src=infinite-pagination.gif  align="center" height="400" width="248" ></a> | <img src=infinite-pagination_no-connection.gif  align="center" height="400" width="248" ></a> |
+|:-------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
+|                              *Infinite Pagination*                              |                        *Infinite Pagination + No Internet Connection*                         |
+
 ### Tech Stacks
 - Kotlin
 - ViewBinding for Binding View
@@ -78,7 +83,7 @@ You can simply run the project by using Android Studio, than follow these steps.
 
 Also, you can run the project by clicking Menu Bar > Run > Run 'app'. See the https://developer.android.com/studio/run for the details how to run Android app on Android Studio.
 
-### Generate App
+### Generate APK
 1. First, open up your project or application that you want to import into an APK file. Then, select Build > Build Bundle(s)/APK(s) > Build APK(s) from the toolbar menu. Android Studio will take a few moments to generate an APK file.
 2. Once the APK build is complete, you’ll receive a notification on the bottom right corner of your screen. From that notification, select Locate and you will be led to the APK file location.
 3. If you miss the notification, you can still locate the APK file in the following path within your project folder: app/build/outputs/apk/debug. The file is named app-debug.apk by default.
