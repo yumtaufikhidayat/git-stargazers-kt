@@ -3,6 +3,7 @@ Git Stargazers is a simple Github application to see the most starred repository
 
 ### Tech Stacks
 - Kotlin
+- ViewBinding for Binding View
 - Dagger Hilt for Dependency Injection
 - Material Design for UI Design
 - Glide for Image Loader
@@ -66,9 +67,9 @@ Git Stargazers is a simple Github application to see the most starred repository
   - implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifeCycleVersion"
 
 - ## Pagination
-  - def paging_version = "3.1.1"
-  - implementation "androidx.paging:paging-runtime:$paging_version"
-  - implementation "androidx.paging:paging-common:$paging_version"
+  - def pagingVersion = "3.1.1"
+  - implementation "androidx.paging:paging-runtime:pagingVersion"
+  - implementation "androidx.paging:paging-common:pagingVersion"
 
 ### Run Project
 You can simply run the project by using Android Studio, than follow these steps.
